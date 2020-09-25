@@ -1,0 +1,11 @@
+ESTADOS: A B C D E
+INICIAL: A
+FINALES: C
+TRANSICIONES:
+ A  '0'  C
+ A  '0'  B
+ B  '1'  E
+ B  '1'  A
+ E  '1'  D
+ D  '0'  B
+FIN

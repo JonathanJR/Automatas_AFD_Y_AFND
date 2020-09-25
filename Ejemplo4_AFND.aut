@@ -1,0 +1,14 @@
+ESTADOS: A B C D F E G
+INICIAL: A
+FINALES: C F G
+TRANSICIONES:
+ A  '0'  A
+ A  '0'  C
+ A  '0'  F
+ A  '@'  B
+ A  '1'  D
+ B  '@'  D
+ B  '0'  C
+ B  '0'  G
+ B  '@'  E
+FIN
